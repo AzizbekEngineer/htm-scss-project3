@@ -1,0 +1,14 @@
+.event__main {
+  padding: 100px 0 50px;
+}
+
+.event__main__desc {
+  padding: 32px 0;
+}
+
+.event__main__img {
+  width: 100%;
+}
+.event__main__img img {
+  width: 100%;
+}

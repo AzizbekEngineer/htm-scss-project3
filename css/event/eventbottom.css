@@ -1,0 +1,154 @@
+.events {
+  padding: 50px 0;
+}
+
+.events__top {
+  width: 100%;
+  padding-bottom: 48px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.events__title {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 500;
+  color: #1d2130;
+}
+
+.events__top .line {
+  flex-grow: 1;
+  height: 2px;
+  background: #e5e5e5;
+}
+
+.event__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.event__items__card {
+  width: 100%;
+  padding: 32px 40px;
+  background: #bef3c0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+.event__item__left__price {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #1d2130;
+}
+
+.event__item__left__info {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #1d2130;
+}
+
+.event__item__middle {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.evenst__card__middle__top {
+  padding-bottom: 8px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.evenst__card__middle__top__line {
+  width: 40px;
+  height: 2px;
+  background: #1d2130;
+}
+
+.evenst__card__middle__top__name {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #1d2130;
+}
+
+.evenst__card__middle__title {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #1d2130;
+}
+
+.event__item__right {
+  width: 60px;
+  height: 60px;
+}
+
+.event__item__right img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .evenst__card__middle__title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .evenst__card__middle__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .event__item__right {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 660px) {
+  .evenst__card__middle__title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .event__item__middle__top__name {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .evenst__card__middle__title {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .event__item__right {
+    width: 30px;
+    height: 30px;
+  }
+  .event__item__middle__top__name {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .evenst__card__middle__title {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .event__item__right {
+    width: 30px;
+    height: 30px;
+  }
+  .event__item__middle__top__name {
+    font-size: 14px;
+  }
+}
